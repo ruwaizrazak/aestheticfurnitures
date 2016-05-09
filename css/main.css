@@ -10,7 +10,7 @@
    border-color: transparent;
 }
 p{font-family: 'muli' , san-serif;color:#a1824e;}
-#aboutus, #interior, #commercial, #products, #footerspace{
+#aboutus, #interior, #commercial, #products, #footerspace,#locationheader{
   background: #242424;
 }
 #aboutus p{
@@ -83,4 +83,15 @@ p{font-family: 'muli' , san-serif;color:#a1824e;}
 #footerlogo img{
   position: relative;
   left: 29%;
+}
+#locationheader{
+  padding: 20px;
+}
+.overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:450px; /* your iframe height */
+   top:450px;  /* your iframe height */
+   margin-top:-450px;  /* your iframe height */
 }

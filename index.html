@@ -8,6 +8,7 @@
     <title>Aesthetic Furnitures</title>
 
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/animate.css">
       <link href="css/main.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Adamina|Muli:300' rel='stylesheet' type='text/css'>
@@ -54,15 +55,15 @@
     <!-- about us starts-->
     <div class="container-fluid">
       <div class="row" id="aboutus">
-        <div class="col-sm-12" id="abouttextarea">
-          <p>We are proud and passionate designers and
+        <div class="col-sm-12 " id="abouttextarea">
+          <p class="wow fadeIn" data-wow-delay="1s">We are proud and passionate designers and
 makers of quality, hand built  wooden furnitures
 and interior designs for the home,office or
 commercial space.</p>
-<p>We create designs and furnitures that stand apart from
+<p class="wow fadeIn" data-wow-delay="1s">We create designs and furnitures that stand apart from
 other products by supreme quality and
 standard..</p>
-<p>We design furnitures and interiors according to the customers
+<p class="wow fadeIn" data-wow-delay="1s">We design furnitures and interiors according to the customers
 desire.</p>
           </p>
 
@@ -71,7 +72,7 @@ desire.</p>
       <div class="row" id="interior">
         <div class="col-sm-6" id="interiorimagepart">
         </div>
-        <div class="col-sm-6" id="interiortextpart">
+        <div class="col-sm-6 wow fadeIn" data-wow-delay="1s" id="interiortextpart">
           <h3 style="color:#a1824e;font-family: 'Adamina', serif;">INTERIOR DESIGNING</h3>
           <p>We help you to convert your ideas about the dream house into reality.With the help of our designers you can make your home plush, with a cost that would fit in your budget.</p>
         </div>
@@ -79,7 +80,7 @@ desire.</p>
       </div>
       <div class="row" id="commercial">
 
-        <div class="col-sm-6" id="commercialtextpart">
+        <div class="col-sm-6 wow fadeIn" data-wow-delay="1s" id="commercialtextpart">
           <h3 style="color:#a1824e;font-family: 'Adamina', serif;">COMMERCIAL SPACE</h3>
           <p>Ambience have a great influence on humans, with our help and your ideas we could turn your commerical space to a dojo that could boost your productivity.</p>
         </div>
@@ -90,7 +91,7 @@ desire.</p>
       <div class="row" id="products">
         <div class="col-sm-6" id="productsimagepart">
         </div>
-        <div class="col-sm-6" id="productstextpart">
+        <div class="col-sm-6 wow fadeIn" data-wow-delay="1s" id="productstextpart">
           <h3 style="color:#a1824e;font-family: 'Adamina', serif;">PRODUCTS</h3>
           <p>Our wide range of products are capable to add elegance to your interiors.</p>
         </div>
@@ -99,6 +100,10 @@ desire.</p>
       </div>
 <div class="row" id="location space">
 <!-- lets add the google iframe here-->
+<div class="col-sm-12 text-center" id="locationheader"><h3 style="color:#a1824e;font-family: 'Adamina', serif;">Reach Us</h3>
+<p class="text-center">Contact us for a quote, may be to get your dreams done.</p></div>
+<div class="overlay" onClick="style.pointerEvents='none'"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.6507717460277!2d75.83548361483335!3d11.213453792025845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65a44496b9863%3A0xb5104d000e07d396!2sAesthetic+Furniture!5e0!3m2!1sen!2sin!4v1462769489628" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen scrolling="no"></iframe>
 </div>
     </div>
 
@@ -116,6 +121,10 @@ desire.</p>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
